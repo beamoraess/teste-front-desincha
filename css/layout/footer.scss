@@ -1,0 +1,61 @@
+.footer {
+    background-image: $gradiente-padrao;
+}
+
+.footer__curve {
+    background-image: linear-gradient(#B6CD51, #B6CD51);
+    height: 150px;
+    -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 100%, 100% 0, 100% 100%, 0% 100%);
+    position: relative;
+    bottom: 148px;
+    z-index: -1;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    
+    ul li {
+    cursor: pointer;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+}
+
+.logo-footer {
+    width: 170px;
+    height: 85px;
+}
+
+.footer__links {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.footer__social {
+    display: flex;
+}
+
+.footer__info {
+    font-size: 10px;
+    color: #FFF;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.footer__ebit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $cor-textos;
+    font-weight: bolder;
+    padding-left: 45px;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+.today-desincha {
+    padding-bottom: 168px;
+    margin-top: 20px;
+    overflow-x: hidden;
+
+    h3 {
+        color: $cor-padrao;
+        @include estilo-titulos;
+        margin-bottom: 20px;
+    }
+
+    p {
+        padding: 15px;
+        font-size: 13px;
+    }
+}
+
+.today-desincha__cards {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.btn-custom {
+    background-color: $cor-padrao;
+    color: $cor-textos;
+    @include estilo-titulos;
+}

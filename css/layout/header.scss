@@ -1,0 +1,63 @@
+.banner {
+    background-image: url(../img/imgbanner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-color: #9EA088;
+}
+
+.banner__background {
+    position: relative;
+    top: 0px;
+    left: 0px
+}
+
+.banner__background img {
+    width: 100%;
+    opacity: 0;
+}
+
+.banner__play {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+.banner__play img {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner__circle {
+    position: absolute;
+    top: 82%;
+    left: 5%;
+
+    p {
+        color: $cor-textos;
+    }
+
+    span {
+        font-weight: bolder;
+        font-size: 20px;
+        color: $cor-textos;
+        text-align: center;
+    }
+}
+
+.banner__circle img {
+    display: flex;
+    margin: 0 auto;
+    width: 150px;
+}
+
+.banner__description-circle {
+    width: 114px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bolder;
+    color: $cor-textos;
+}
